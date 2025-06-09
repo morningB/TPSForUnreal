@@ -1,0 +1,36 @@
+*.uasset filter=lfs diff=lfs merge=lfs -text
+
+# Unreal Engine 파일 확장자 - Git LFS로 관리
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+
+# 모델링/머티리얼 리소스
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# 사운드
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+
+# 영상
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+
+# 기타 애셋 (애니메이션, 셰이더 등)
+*.anim filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -text
+
+# 제거 권장: 텍스트 파일이나 코드 파일은 LFS 금지
+*.cs text
+*.cpp text
+*.h text
+*.ini text
+*.json text
+*.txt text
+*.shader text
